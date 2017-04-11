@@ -14,9 +14,10 @@
   
 ## Require module
   <a name="Require"></a>
- ```javascript
-  let sig = require('search-image-google');
-```
+   ```javascript
+    let sig = require('search-image-google');
+  ```
+  **[⬆ back to top](#Content)**
 
 ## Colors
   <a name="Colors"></a>
@@ -33,6 +34,7 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
   
 ## Sizes
   <a name="Sizes"></a>
@@ -49,6 +51,7 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
   
 ## Types
   <a name="Types"></a><a name="1.1"></a>
@@ -69,6 +72,7 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
   
 ## Time
   <a name="Time"></a>
@@ -81,7 +85,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#table-of-contents)**
+  **[⬆ back to top](#Content)**
   
 ## License
   <a name="License"></a>
@@ -134,6 +138,7 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
   
   ## Countries
   <a name="Countries"></a>
@@ -151,6 +156,7 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
   
 ## Site
   <a name="Site"></a>
@@ -163,6 +169,8 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
+  
 ## Safe
   <a name="Safe"></a>
   ```javascript  
@@ -170,6 +178,8 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
+  
 ## Example
   <a name="Example"></a>
   ```javascript  
@@ -177,3 +187,4 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#Content)**
