@@ -1,5 +1,5 @@
-## Content
-  <a name="Content"></a>
+## Documentation
+  <a name="Documentation"></a>
   1. [Install](#Install)
   1. [Require](#Require)
   1. [Colors](#Colors)
@@ -15,8 +15,8 @@
   
 ## Install module
   <a name="Install"></a>
-   ```npm install search-image-google --save
-   ```
+   >npm install search-image-google --save
+   
   
 ## Require module
   <a name="Require"></a>
