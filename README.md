@@ -1,5 +1,6 @@
 ## Content
   <a name="Content"></a>
+  1. [Install](#Install)
   1. [Require](#Require)
   1. [Colors](#Colors)
   1. [Sizes](#Sizes)
@@ -12,13 +13,17 @@
   1. [Safe](#Safe)
   1. [Example](#Example)
   
+## Install module
+  <a name="Install"></a>
+   ```npm install search-image-google --save
+   ```
+  
 ## Require module
   <a name="Require"></a>
    ```javascript
     let sig = require('search-image-google');
   ```
-  **[⬆ back to top](#Content)**
-
+  
 ## Colors
   <a name="Colors"></a>
   ```javascript  
