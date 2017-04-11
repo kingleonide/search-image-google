@@ -1,5 +1,3 @@
-# search-image-google
-
 ## Table of Contents
   1. [Require](#Require)
   1. [Colors](#Colors)
@@ -12,19 +10,23 @@
   1. [Site](#Site)
   1. [Safe](#Safe)
   
-  ## Require module
+## Require module
   <a name="Require"></a><a name="1.1"></a>
 	```javascript
 	let sig = require('search-image-google');
 	```
-	
-## Search by colors
-+ **Primitives**: When you access a primitive type you work directly on its value.
-	+ `color` search colored images
-	+ `gray`  search black and white images
-	+ `trans`
-
-+ **Usage**:
+## Colors
+  <a name="Colors"></a><a name="1.1"></a>
 	```javascript
-	let vs = 1;
+	sig({search: "cats", color: "color"}, function(images){
+		console.log(images);
+	})
+	
+	sig({search: "cats", color: "gray"}, function(images){
+		console.log(images);
+	})
+	
+	sig({search: "cats", color: "trans"}, function(images){
+		console.log(images);
+	})
 	```
