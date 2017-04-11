@@ -1,27 +1,33 @@
 # search-image-google
 
-**Search by sizes**
-**Search by types**
-**Search by time**
-**Search by license**
-**Search by filetype**
-**Search by country**
-**Search by site**
-**Search by safe results**
+## Table of Contents
+  1. [Require](#Require)
+  1. [Colors](#Colors)
+  1. [Sizes](#Sizes)
+  1. [Types](#Types)
+  1. [Time](#Time)
+  1. [License](#License)
+  1. [Filetype](#Filetype)
+  1. [Countries](#Countries)
+  1. [Site](#Site)
+  1. [Safe](#Safe)
+  
+  ## Types
+  <a name="Require"></a><a name="1.1"></a>
+	asfasfsaf
 
+## Require module
+	```javascript
+	let 
+	```
+	
 ## Search by colors
-    **Primitives**: When you access a primitive type you work directly on its value.
-    + `string`
-    + `number`
-    + `boolean`
-    + `null`
-    + `undefined`
++ **Primitives**: When you access a primitive type you work directly on its value.
+	+ `color` search colored images
+	+ `gray`  search black and white images
+	+ `trans`
 
-    ```javascript
-    const foo = 1;
-    let bar = foo;
-
-    bar = 9;
-
-    console.log(foo, bar); // => 1, 9
-    ```
++ **Usage**:
+	```javascript
+	let vs = 1;
+	```
