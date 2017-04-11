@@ -15,6 +15,11 @@
 	```javascript
 		let sig = require('search-image-google');
 	```
+	
+	```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 ## Colors
   <a name="Colors"></a><a name="1.1"></a>
 	```javascript  
