@@ -1,7 +1,30 @@
+## Install module
+  <a name="Install"></a>
+   ```
+   npm install search-image-google --save
+   ```
+   
+## Require module
+  <a name="Require"></a>
+   ```javascript
+    let sig = require('search-image-google');
+  ```
+  
+## Example
+  <a name="Example"></a>
+  ```javascript  
+  
+  sig({search: "cats", safe: "active"}, function(images){
+    console.log(images);
+  });
+  
+  ```
+
 ## Documentation
   <a name="Documentation"></a>
   1. [Install](#Install)
   1. [Require](#Require)
+  1. [Example](#Example)
   1. [Colors](#Colors)
   1. [Sizes](#Sizes)
   1. [Types](#Types)
@@ -11,19 +34,7 @@
   1. [Countries](#Countries)
   1. [Site](#Site)
   1. [Safe](#Safe)
-  1. [Example](#Example)
-  
-## Install module
-  <a name="Install"></a>
-   >npm install search-image-google --save
-   
-  
-## Require module
-  <a name="Require"></a>
-   ```javascript
-    let sig = require('search-image-google');
-  ```
-  
+
 ## Colors
   <a name="Colors"></a>
   ```javascript  
@@ -39,7 +50,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## Sizes
   <a name="Sizes"></a>
@@ -56,7 +67,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## Types
   <a name="Types"></a><a name="1.1"></a>
@@ -77,7 +88,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## Time
   <a name="Time"></a>
@@ -90,7 +101,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## License
   <a name="License"></a>
@@ -143,7 +154,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
   ## Countries
   <a name="Countries"></a>
@@ -161,7 +172,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## Site
   <a name="Site"></a>
@@ -174,7 +185,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
 ## Safe
   <a name="Safe"></a>
@@ -183,13 +194,5 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Content)**
+  **[⬆ back to top](#Documentation)**
   
-## Example
-  <a name="Example"></a>
-  ```javascript  
-  sig({search: "cats", safe: "active"}, function(images){
-    console.log(images);
-  });
-  ```
-  **[⬆ back to top](#Content)**
