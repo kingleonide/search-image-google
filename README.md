@@ -1,4 +1,5 @@
-## Table of Contents
+## Content
+  <a name="Content"></a>
   1. [Require](#Require)
   1. [Colors](#Colors)
   1. [Sizes](#Sizes)
@@ -9,15 +10,16 @@
   1. [Countries](#Countries)
   1. [Site](#Site)
   1. [Safe](#Safe)
+  1. [Example](#Example)
   
 ## Require module
-  <a name="Require"></a><a name="1.1"></a>
+  <a name="Require"></a>
  ```javascript
   let sig = require('search-image-google');
 ```
 
 ## Colors
-  <a name="Colors"></a><a name="1.1"></a>
+  <a name="Colors"></a>
   ```javascript  
   sig({search: "cats", color: "color"}, function(images){
     console.log(images);
@@ -33,7 +35,7 @@
   ```
   
 ## Sizes
-  <a name="Sizes"></a><a name="1.1"></a>
+  <a name="Sizes"></a>
   ```javascript  
   sig({search: "cats", size: "l"}, function(images){
     console.log(images);
@@ -69,7 +71,7 @@
   ```
   
 ## Time
-  <a name="Time"></a><a name="1.1"></a>
+  <a name="Time"></a>
   ```javascript  
   sig({search: "cats", time: "d"}, function(images){
     console.log(images);
@@ -79,9 +81,10 @@
     console.log(images);
   });
   ```
+  **[⬆ back to top](#table-of-contents)**
   
 ## License
-  <a name="License"></a><a name="1.1"></a>
+  <a name="License"></a>
   ```javascript  
   sig({search: "cats", license: "fmc"}, function(images){
     console.log(images);
@@ -101,7 +104,7 @@
   ```
   
   ## Filtetype
-  <a name="Filtetype"></a><a name="1.1"></a>
+  <a name="Filtetype"></a>
   ```javascript  
   sig({search: "cats", filetype: "jpg"}, function(images){
     console.log(images);
@@ -133,7 +136,7 @@
   ```
   
   ## Countries
-  <a name="Countries"></a><a name="1.1"></a>
+  <a name="Countries"></a>
   See Alpha-2 on <a href="http://www.nationsonline.org/oneworld/country_code_list.htm">Country ISO Codes</a>
   ```javascript  
   sig({search: "cats", country: "FR"}, function(images){
@@ -150,7 +153,7 @@
   ```
   
 ## Site
-  <a name="Site"></a><a name="1.1"></a>
+  <a name="Site"></a>
   ```javascript  
   sig({search: "cats", site: ".gov"}, function(images){
     console.log(images);
@@ -161,7 +164,14 @@
   });
   ```
 ## Safe
-  <a name="Safe"></a><a name="1.1"></a>
+  <a name="Safe"></a>
+  ```javascript  
+  sig({search: "cats", safe: "active"}, function(images){
+    console.log(images);
+  });
+  ```
+## Example
+  <a name="Example"></a>
   ```javascript  
   sig({search: "cats", safe: "active"}, function(images){
     console.log(images);
