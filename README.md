@@ -15,19 +15,3 @@
 		```javascript
 			let sig = require('search-image-google');
 		```
-		
-## Colors
-  <a name="Colors"></a><a name="1.1"></a>
-		```javascript  
-		sig({search: "cats", color: "color"}, function(images){
-			console.log(images);
-		});
-
-		sig({search: "cats", color: "gray"}, function(images){
-			console.log(images);
-		});
-
-		sig({search: "cats", color: "trans"}, function(images){
-			console.log(images);
-		});
-		```
