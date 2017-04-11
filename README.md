@@ -12,13 +12,10 @@
   1. [Site](#Site)
   1. [Safe](#Safe)
   
-  ## Types
+  ## Require module
   <a name="Require"></a><a name="1.1"></a>
-	asfasfsaf
-
-## Require module
 	```javascript
-	let 
+	let sig = require('search-image-google');
 	```
 	
 ## Search by colors
