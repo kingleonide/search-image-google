@@ -71,11 +71,11 @@
 ## Time
   <a name="Time"></a><a name="1.1"></a>
   ```javascript  
-  sig({search: "cats", type: "d"}, function(images){
+  sig({search: "cats", time: "d"}, function(images){
     console.log(images);
   });
 
-  sig({search: "cats", type: "w"}, function(images){
+  sig({search: "cats", time: "w"}, function(images){
     console.log(images);
   });
   ```
@@ -83,19 +83,19 @@
 ## License
   <a name="License"></a><a name="1.1"></a>
   ```javascript  
-  sig({search: "cats", type: "fmc"}, function(images){
+  sig({search: "cats", license: "fmc"}, function(images){
     console.log(images);
   });
 
-  sig({search: "cats", type: "fc"}, function(images){
+  sig({search: "cats", license: "fc"}, function(images){
     console.log(images);
   });
   
-  sig({search: "cats", type: "fm"}, function(images){
+  sig({search: "cats", license: "fm"}, function(images){
     console.log(images);
   });
   
-  sig({search: "cats", type: "f"}, function(images){
+  sig({search: "cats", license: "f"}, function(images){
     console.log(images);
   });
   ```
@@ -128,6 +128,23 @@
   });
   
    sig({search: "cats", filetype: "ico"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+  ## Countries
+  <a name="Countries"></a><a name="1.1"></a>
+  See <a href="http://kirste.userpage.fu-berlin.de/diverse/doc/ISO_3166.html">Country ISO Codes</a>
+  ```javascript  
+  sig({search: "cats", country: "FR"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", license: "fc"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", license: "fm"}, function(images){
     console.log(images);
   });
   ```
