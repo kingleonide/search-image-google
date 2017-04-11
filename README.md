@@ -12,6 +12,16 @@
   
 ## Require module
   <a name="Require"></a><a name="1.1"></a>
-		```javascript
-			let sig = require('search-image-google');
-		```
+ ```javascript
+    // bad
+    var count = 1;
+    if (true) {
+      count += 1;
+    }
+
+    // good, use the let.
+    let count = 1;
+    if (true) {
+      count += 1;
+    }
+```
