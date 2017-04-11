@@ -30,4 +30,4 @@
 		sig({search: "cats", color: "trans"}, function(images){
 			console.log(images);
 		});
-	```
+		```
