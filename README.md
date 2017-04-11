@@ -134,7 +134,7 @@
   
   ## Countries
   <a name="Countries"></a><a name="1.1"></a>
-  See <a href="http://kirste.userpage.fu-berlin.de/diverse/doc/ISO_3166.html">Country ISO Codes</a>
+  See Alpha-2 on <a href="http://www.nationsonline.org/oneworld/country_code_list.htm">Country ISO Codes</a>
   ```javascript  
   sig({search: "cats", country: "FR"}, function(images){
     console.log(images);
@@ -145,6 +145,25 @@
   });
   
   sig({search: "cats", license: "fm"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+## Site
+  <a name="Site"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", site: ".gov"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", site: "nasa.gov"}, function(images){
+    console.log(images);
+  });
+  ```
+## Safe
+  <a name="Safe"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", safe: "active"}, function(images){
     console.log(images);
   });
   ```
