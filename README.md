@@ -31,3 +31,38 @@
     console.log(images);
   });
   ```
+## Sizes
+  <a name="Sizes"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", size: "l"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", size: "m"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", size: "i"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+## Types
+  <a name="Types"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", type: "face"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", type: "photo"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", type: "clipart"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", type: "lineart"}, function(images){
+    console.log(images);
+  });
+  ```
