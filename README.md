@@ -40,7 +40,7 @@
 	console.log(images.url, images.filetype, images, width, images.height);
   }
   
-  sig('Porn', {size: "l", safe: "active"}, function(images){
+  sig('Porn', {size: "l", safe: true}, function(images){
 	console.log(images.url, images.filetype, images, width, images.height);
   }
   
@@ -228,7 +228,7 @@
 ## Safe
   <a name="Safe"></a>
   ```javascript  
-  sig('cats', { safe: "active"}, function(images){
+  sig('cats', { safe: true}, function(images){
     console.log(images);
   });
   ```
