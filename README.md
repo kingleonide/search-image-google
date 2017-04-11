@@ -10,8 +10,7 @@
 **Search by safe results**
 
 ## Search by colors
--**Primitives**: When you access a primitive type you work directly on its value.
-
+    **Primitives**: When you access a primitive type you work directly on its value.
     + `string`
     + `number`
     + `boolean`
