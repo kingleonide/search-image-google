@@ -31,6 +31,7 @@
     console.log(images);
   });
   ```
+  
 ## Sizes
   <a name="Sizes"></a><a name="1.1"></a>
   ```javascript  
@@ -63,6 +64,70 @@
   });
   
   sig({search: "cats", type: "lineart"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+## Time
+  <a name="Time"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", type: "d"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", type: "w"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+## License
+  <a name="License"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", type: "fmc"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", type: "fc"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", type: "fm"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", type: "f"}, function(images){
+    console.log(images);
+  });
+  ```
+  
+  ## Filtetype
+  <a name="Filtetype"></a><a name="1.1"></a>
+  ```javascript  
+  sig({search: "cats", filetype: "jpg"}, function(images){
+    console.log(images);
+  });
+
+  sig({search: "cats", filetype: "gif"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", filetype: "png"}, function(images){
+    console.log(images);
+  });
+  
+  sig({search: "cats", filetype: "bmp"}, function(images){
+    console.log(images);
+  });
+  
+   sig({search: "cats", filetype: "svg"}, function(images){
+    console.log(images);
+  });
+  
+   sig({search: "cats", filetype: "webp"}, function(images){
+    console.log(images);
+  });
+  
+   sig({search: "cats", filetype: "ico"}, function(images){
     console.log(images);
   });
   ```
