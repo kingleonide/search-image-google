@@ -88,7 +88,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## Sizes
   <a name="Sizes"></a>
@@ -105,7 +105,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## Types
   <a name="Types"></a>
@@ -126,7 +126,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## Time
   <a name="Time"></a>
@@ -139,7 +139,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## License
   <a name="License"></a>
@@ -192,7 +192,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
   ## Countries
   <a name="Countries"></a>
@@ -210,7 +210,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## Site
   <a name="Site"></a>
@@ -223,7 +223,7 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
 ## Safe
   <a name="Safe"></a>
@@ -232,5 +232,5 @@
     console.log(images);
   });
   ```
-  **[⬆ back to top](#Documentation)**
+  **[⬆ back to top](#Install)**
   
